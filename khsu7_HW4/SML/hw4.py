@@ -4,6 +4,7 @@ fInput = 0
 def hw4(input, output):
     global fInput
     global fInput2
+    global fInput3
     fInput = open(input,'r')
     fInput2 = open('body.txt','r')
     f = open(output,'w')
